@@ -1,0 +1,41 @@
+main>.container {
+           padding: 60px 15px 0;
+           margin-bottom: 5rem;
+       }
+       .sticky-footer {
+           position: sticky;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+       }
+
+main>.container-fluid{
+    padding-top: 60px;
+}       
+
+body> main{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.homeText {
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0);
+}   
+
+.homeBG{
+    width: 100%;
+    background: url(/BootstrapAndTheGrid/img/GridBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.minHeight{
+    min-height: 80vh;
+}
+
+
